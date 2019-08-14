@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>left_layered_rating_filter</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Includes filter according to reviews with showing rating stars</summary>
+    <description>This extension makes available filtering products according to review points. In the left filter, rating stars are shown. It looks rating point while creating filter. For example in the layered navigation 3 stars image is filtering products which have rating point between 60 and 79.</description>
+    <notes>Base upload of stable extension</notes>
+    <authors><author><name>udogan</name><user>udogan</user><email>ugurdogann1905@gmail.com</email></author></authors>
+    <date>2012-10-14</date>
+    <time>08:18:59</time>
+    <contents><target name="magelocal"><dir name="Product"><dir name="CatalogSearch"><dir name="Block"><file name="Layer.php" hash="69d731d114921d18ec49114d98730d88"/></dir><dir name="etc"><file name="config.xml" hash="452762e46c27d76b5ec2d5ab967d60f5"/></dir></dir><dir name="Filter"><dir name="Block"><dir name="Layer"><dir name="Filter"><file name="Review.php" hash="34e53ebc5446182c0336afefbb29f450"/></dir><file name="View.php" hash="fc2ab71762c3e6dab6d5268c24d00313"/></dir></dir><dir name="Model"><dir name="Layer"><dir name="Filter"><file name="Review.php" hash="159a33deb1c0473efa54236c1429e467"/></dir></dir><dir name="Resource"><dir name="Eav"><dir name="Mysql4"><dir name="Layer"><dir name="Filter"><file name="Review.php" hash="b26f673b3aa37736bec8f4cae747ad87"/></dir></dir></dir></dir><dir name="Layer"><dir name="Filter"><file name="Review.php" hash="ccd79f5a8cacb0d0a51bacfc31bbe8a9"/></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="c2a2f05215c4e1762e886388da46d6d7"/></dir><dir name="sql"><dir name="filter_setup"><file name="mysql4-install-0.1.0.php" hash="f909ae575f390e3c4c4827521cc64d65"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="ratingfilter"><dir name="layer"><file name="filter.phtml" hash="c266878d3d22cc38a9909eb2b5842758"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
+</package>

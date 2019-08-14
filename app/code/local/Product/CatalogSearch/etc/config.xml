@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <blocks>
+            <catalogsearch>
+                <rewrite>
+                    <layer>Product_CatalogSearch_Block_Layer</layer>
+                </rewrite>
+            </catalogsearch>
+        </blocks>
+    </global>
+</config>

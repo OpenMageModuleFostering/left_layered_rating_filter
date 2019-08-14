@@ -1,0 +1,23 @@
+<?php
+/**
+ * Template for filter items block
+ *
+ * @see Mage_Catalog_Block_Layer_Filter
+ */
+?>
+
+<ol>
+<?php foreach ($this->getItems() as $_item): ?>
+    <li>
+        <?php if ($_item->getCount() > 0): ?>
+        <input id="rating-filter" type="radio" name="rating-filter" style="float:left; margin-top:2px; margin-right: 5px;" onClick="setLocation(this.value)" value="<?php echo $this->urlEscape($_item->getUrl()) ?>">
+            <div class="ratings">
+                <div class="rating-box">
+                    <div class="rating" style="width: <?php echo ($_item->getLabel() * 20) . '%' ?>"></div>
+                </div>
+            </div>
+        </input>
+        <?php endif; ?>
+    </li>
+<?php endforeach ?>
+</ol>

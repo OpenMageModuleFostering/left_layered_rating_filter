@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/left_layered_rating_filter",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Includes filter according to reviews with showing rating stars",
+    "authors": [
+    {
+        "name": "udogan",
+        "email": "ugurdogann1905@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,4 @@
+<?php
+class Product_Filter_Model_Resource_Eav_Mysql4_Layer_Filter_Review extends Module_Catalog_Model_Resource_Layer_Filter_Review
+{
+}
